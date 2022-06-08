@@ -10,9 +10,9 @@ class Boundary {
 	}
 
 	show() {
-		stroke(255, 0, 0);
-		strokeWeight(5);
-		point(this.a);
+// 		stroke(255, 0, 0);
+// 		strokeWeight(5);
+// 		point(this.a);
 		stroke(0);
 		strokeWeight(3);
 		line(this.a.x, this.a.y, this.b.x, this.b.y);
